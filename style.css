@@ -128,3 +128,10 @@ body{
 .secondarrowkeys button{
     font-size: large;
 }
+button {
+    transition: background-color 0.3s ease; /* Smooth effect */
+}
+.pressed{
+    background-color: rgba(0, 151, 0, 0.562) !important;
+    transition: 0.05s;
+}
